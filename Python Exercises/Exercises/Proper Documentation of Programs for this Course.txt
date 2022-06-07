@@ -1,0 +1,20 @@
+
+Proper Documentation of Programs for this course.-3
+
+For full credit all programs you submit must have the following at the top of the program:
+
+Comment................... 	Example..................
+# Your name 			Instructor
+# Course/Section 		ITP100-0?wa or ha
+# Assignment 			Homework: ##
+# Program 			name.py
+
+    in addition you should have
+    a comment explaining the purpose of the program
+    comments explaining the functions (short is fine) and
+    comments whenever you think your code need explaining.
+
+#Je'Vaughn Black
+#IPT100-02
+#Excercise 03
+#program.py

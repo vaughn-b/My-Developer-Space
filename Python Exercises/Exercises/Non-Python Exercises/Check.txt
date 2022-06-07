@@ -1,0 +1,13 @@
+Je'Vaughn Black
+ITP-100-02RA-FA20 
+[I'm not sure I understand what you want us to put here. What program?] <program name>
+
+Specs:
+How to calculate the total for your restaurant check, to include the tip.
+
+Pseudocode:
+-Prompt user to enter the check total
+-Prompt user to enter the percentage they want to tip
+	-If less than 10%, remind them waiters aren't paid a living wage.
+-Compute the percentage of the total.
+-Display the result

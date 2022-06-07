@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="x2Entendre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-09-18 02:40:58 PM"/>
+        <attribute name="created" value="eDJFbnRlbmRyZTtERVNLVE9QLTZINDNOM0Q7MjAyMC0wOS0xNzswMzozMDo0OSBQTTszMjg0"/>
+        <attribute name="edited" value="eDJFbnRlbmRyZTtERVNLVE9QLTZINDNOM0Q7MjAyMC0wOS0xODswMjo0MDo1OCBQTTszOzMzOTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="check" type="Real" array="False" size=""/>
+            <input variable="check"/>
+            <declare name="tippercentage" type="Real" array="False" size=""/>
+            <input variable="tippercentage"/>
+            <declare name="tip" type="Real" array="False" size=""/>
+            <if expression="tippercentage &gt;= 10">
+                <then>
+                    <output expression="&quot;Calculating tip.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Please remember, waiters and waitresses are not paid a living wage here in the US.&quot;" newline="True"/>
+                </else>
+            </if>
+            <assign variable="tip" expression="check * (tippercentage*.01)"/>
+            <output expression="&quot;Tip $&quot; &amp; tip" newline="True"/>
+            <declare name="total" type="Real" array="False" size=""/>
+            <assign variable="total" expression="check + tip"/>
+            <output expression="&quot;Total $&quot; &amp; total" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>

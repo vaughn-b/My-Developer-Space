@@ -1,0 +1,11 @@
+#Je'Vaughn Black
+#IPT100-02
+#Excercise 03
+#program.py
+
+name = input("Enter your full name: ")
+name_list = name.split()
+first_name = name_list[0]
+middle_name = name_list[1]
+last_name = name_list[2]
+print(f"{first_name.upper()[0]}.{middle_name.upper()[0]}.{last_name.upper()[0]}")
