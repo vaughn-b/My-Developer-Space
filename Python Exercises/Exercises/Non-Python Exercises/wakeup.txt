@@ -1,0 +1,14 @@
+Je'Vaughn Black
+ITP-100-02RA-FA20 
+[I'm not sure I understand what you want us to put here. What program?] <program name>
+
+Spec:
+What to do when alarm clock goes off in the morning:
+	
+Pseudocode:
+-Wake up
+-Check alarm
+	-if puzzle alarm, complete puzzle, dismiss
+		-if puzzle to difficult for morning brain, yeet phone across room
+	-if regular alarm, dismiss
+-Go back to sleep

@@ -1,0 +1,14 @@
+Je'Vaughn Black
+ITP-100-02RA-FA20 
+[wakeup and check]
+
+Spec:
+What to do when alarm clock goes off in the morning
+	
+Pseudocode:
+-Wake up
+-Check alarm
+	-if method of turning off alarm is a puzzle, complete puzzle, then dismiss alarm
+		-if puzzle too difficult for morning brain, yeet (also read as throw) phone across room
+	-if regular method of turning off alarm, dismiss alarm
+-Go back to sleep

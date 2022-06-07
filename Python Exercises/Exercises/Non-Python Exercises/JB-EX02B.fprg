@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="x2Entendre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-09-17 04:11:41 PM"/>
+        <attribute name="created" value="eDJFbnRlbmRyZTtERVNLVE9QLTZINDNOM0Q7MjAyMC0wOS0xNzswNDowNTozMSBQTTszMjc4"/>
+        <attribute name="edited" value="eDJFbnRlbmRyZTtERVNLVE9QLTZINDNOM0Q7MjAyMC0wOS0xNzswNDoxMTo0MSBQTTsxOzMzODQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Celsius" type="Real" array="False" size=""/>
+            <declare name="Fahrenheit" type="Real" array="False" size=""/>
+            <input variable="celsius"/>
+            <assign variable="Fahrenheit" expression="(9.0/5.0)*Celsius+32"/>
+            <output expression="&quot;That is equivilant to &quot; &amp; fahrenheit &amp; &quot; degrees Fahrenheit&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
