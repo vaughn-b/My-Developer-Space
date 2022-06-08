@@ -10,8 +10,8 @@
 </head>
 <body>
   <form id="survey-form">
-    <input id="name">NAME</input>
-    <input id="email">EMAIL</input>
-    <input id="number">PHONE NUMBER</input>
+    <label id="name-label">NAME <input id="name" type="text" required /> </label>
+    <label id="email-label">EMAIL <input id="email" type="email" required/></label>
+    <label id="number-label">AGE (optional) <input id="number" type="number" /> </label>
   </form>
 </body>   
