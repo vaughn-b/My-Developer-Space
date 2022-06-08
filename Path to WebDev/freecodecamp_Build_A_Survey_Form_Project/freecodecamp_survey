@@ -11,7 +11,7 @@
 <body>
   <form id="survey-form">
     <label id="name-label">NAME <input id="name" type="text" required /> </label>
-    <label id="email-label">EMAIL <input id="email" type="email" required/></label>
-    <label id="number-label">AGE (optional) <input id="number" type="number" /> </label>
+    <label id="email-label">EMAIL <input id="email" type="email" required /> </label>
+    <label id="number-label">AGE (optional)<input id="number" type="number" min="13" max="120" /> </label>
   </form>
 </body>   
