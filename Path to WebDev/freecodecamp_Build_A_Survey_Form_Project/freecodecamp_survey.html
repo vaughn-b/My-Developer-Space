@@ -11,16 +11,31 @@
   <h1 id="title">SURVEY</h1> 
   <p id="description">FILLER DESCRIPTION TEXT</p>
   <form id="survey-form">
-    <label id="name-label">NAME <input id="name" type="text" placeholder="Chad Chadly" required /> </label>
-    <label id="email-label">EMAIL <input id="email" type="email" placeholder="example@freecodecamp.org" required /> </label>
-    <label id="number-label">AGE (optional)<input id="number" type="number" min="13" max="120" placeholder="99" /> </label>
-    <label>SELECT ONE:
-      <select id="dropdown">
-      <option name="dropdownmenu">OPTION 1</option>
-      <option name="dropdownmenu">OPTION 2</option>
-      </select>
-    </label>
-    <label><input type="checkbox" /></label>
-    <label></label>
+    <fieldset>
+      <label id="name-label">NAME <input id="name" type="text" placeholder="Chad Chadly" required /> </label>
+      <label id="email-label">EMAIL <input id="email" type="email" placeholder="example@freecodecamp.org" required /> </label>
+      <label id="number-label">AGE (optional)<input id="number" type="number" min="13" max="120" placeholder="99" /> </label>
+    </fieldset>
+    <fieldset>
+      <label>SELECT ONE:
+        <select id="dropdown">
+          <option name="dropdownmenu" value="opt1" >OPTION 1</option>
+          <option name="dropdownmenu" value="opt2">OPTION 2</option>
+        </select>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label>FILLER QUESTION:
+        <label><input type="radio" name="fillerquestion" value="filler1"/>FILLER1</label>
+        <label><input type="radio" name="fillerquestion" value="filler2" />FILLER2</label>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label><input type="checkbox" value="option1" />OPTION 1</label>
+      <label><input type="checkbox" value="option2" />OPTION 2</label>
+    </fieldset>
+    <fieldset>
+      <label><input type="textarea" placeholder="Do you have any special request? Place them here!" /></label>
+    </fieldset>
   </form>
 </body>   
