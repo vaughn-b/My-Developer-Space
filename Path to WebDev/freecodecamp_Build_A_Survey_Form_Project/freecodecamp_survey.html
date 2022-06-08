@@ -1,41 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>BUILD A SURVEY PROJECT</title>
+    <title>Keyboard Survey Project</title>
      <meta charset="UTF-8" />
      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <link href="styles.css" rel="stylesheet" type="text/css" />
   </head>
 <body>
-  <h1 id="title">SURVEY</h1> 
-  <p id="description">FILLER DESCRIPTION TEXT</p>
+  <h1 id="title">Keyboard Survey</h1> 
+  <p id="description">We want to know what your preferred type of keyboard is!</p>
   <form id="survey-form">
     <fieldset>
-      <label id="name-label">NAME <input id="name" type="text" placeholder="Chad Chadly" required /> </label>
-      <label id="email-label">EMAIL <input id="email" type="email" placeholder="example@freecodecamp.org" required /> </label>
-      <label id="number-label">AGE (optional)<input id="number" type="number" min="13" max="120" placeholder="99" /> </label>
+      <label id="name-label">Name: <input id="name" type="text" placeholder="Chad Chadly" required /> </label>
+      <label id="email-label">Email: <input id="email" type="email" placeholder="example@freecodecamp.org" required /> </label>
+      <label id="number-label">Age(optional): <input id="number" type="number" min="13" max="120" placeholder="99" /> </label>
     </fieldset>
     <fieldset>
-      <label>SELECT ONE:
+      <label>Size:
         <select id="dropdown">
           <option name="dropdownmenu" value="opt1" >OPTION 1</option>
           <option name="dropdownmenu" value="opt2">OPTION 2</option>
         </select>
       </label>
+      <label>Layout:
+        <select id="dropdown">
+          <option name="dropdownmenu" value="opt1" >OPTION 1</option>
+          <option name="dropdownmenu" value="opt2">OPTION 2</option>
+        </select>
+      </label>
+      
     </fieldset>
     <fieldset>
-      <label>FILLER QUESTION:
-        <label><input type="radio" name="fillerquestion" value="filler1"/>FILLER1</label>
-        <label><input type="radio" name="fillerquestion" value="filler2" />FILLER2</label>
+      <label>Do you like RGB lighting?
+        <label><input type="radio" name="fillerquestion" value="rgbyes"/>Yes</label>
+        <label><input type="radio" name="fillerquestion" value="rgbno" />No</label>
       </label>
     </fieldset>
     <fieldset>
-      <label><input type="checkbox" value="option1" />OPTION 1</label>
-      <label><input type="checkbox" value="option2" />OPTION 2</label>
+      <label><input type="checkbox" value="tactile" />Tactile</label>
+      <label><input type="checkbox" value="linear" />Linear</label>
+      <label><input type="checkbox" value="clicky" />Clicky</label>
     </fieldset>
     <fieldset>
-      <label><input type="textarea" placeholder="Do you have any special request? Place them here!" /></label>
+      <label>Do you have any special preferences not listed above? 
+        <textarea rows="3" cols="30" placeholder="Place them here!"></textarea>
+      </label>
     </fieldset>
+    <input id="submit" type="submit" value="Submit" />
   </form>
 </body>   
