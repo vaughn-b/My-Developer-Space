@@ -12,29 +12,35 @@
   <p id="description">We want to know what your preferred type of keyboard is!</p>
   <form id="survey-form">
     <fieldset>
-      <label id="name-label">Name: <input id="name" type="text" placeholder="Chad Chadly" required /> </label>
+      <label id="name-label">Name: <input id="name" type="text" placeholder="Keyboard Kenny" required /> </label>
       <label id="email-label">Email: <input id="email" type="email" placeholder="example@freecodecamp.org" required /> </label>
       <label id="number-label">Age(optional): <input id="number" type="number" min="13" max="120" placeholder="99" /> </label>
     </fieldset>
     <fieldset>
       <label>Size:
-        <select id="dropdown">
-          <option name="dropdownmenu" value="opt1" >OPTION 1</option>
-          <option name="dropdownmenu" value="opt2">OPTION 2</option>
+        <select id="dropdown" required>
+          <option name="dropdownmenu" value="100" >Full Sized</option>
+          <option name="dropdownmenu" value="90">90%/1800 Compact</option>
+          <option name="dropdownmenu" value="80" >TKL/80%</option>
+          <option name="dropdownmenu" value="75" >75%</option>
+          <option name="dropdownmenu" value="65" >65%</option>
+          <option name="dropdownmenu" value="60" >60%</option>
+          <option name="dropdownmenu" value="40" >40%</option>
         </select>
       </label>
       <label>Layout:
-        <select id="dropdown">
-          <option name="dropdownmenu" value="opt1" >OPTION 1</option>
-          <option name="dropdownmenu" value="opt2">OPTION 2</option>
+        <select id="dropdown" required>
+          <option name="dropdownmenu" value="ansi" >ANSI</option>
+          <option name="dropdownmenu" value="iso">ISO</option>
+          <option name="dropdownmenu" value="jis">JIS</option>
         </select>
       </label>
       
     </fieldset>
     <fieldset>
       <label>Do you like RGB lighting?
-        <label><input type="radio" name="fillerquestion" value="rgbyes"/>Yes</label>
-        <label><input type="radio" name="fillerquestion" value="rgbno" />No</label>
+        <label><input type="radio" name="rgb" value="rgbyes"/>Yes</label>
+        <label><input type="radio" name="rgb" value="rgbno" />No</label>
       </label>
     </fieldset>
     <fieldset>
