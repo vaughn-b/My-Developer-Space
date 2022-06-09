@@ -35,12 +35,15 @@ label {
   margin: 0.5rem 0;
 }
 
-input, textarea, select{
-  margin: 10px 0 0 0;
-  min-width: 100%;
-  min-height: 2em;
+input:not([type="radio"],[type="checkbox"]), textarea, select{
+    margin: 10px 0 0 0;
+    min-width: 100%;
+    min-height: 2em;
 }
 
+input[type="radio"],[type="checkbox"] {
+    margin: 10px;
+}
 input, textarea {
     background-color: #2a4754;
     border: 1px solid #2a4754;
